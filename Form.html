@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login Page            
+        </title>
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+        <form>            
+            <label for="FName">First Name</label>
+            <input class="textbox" type="text" id="FName" required min="3" max="15" placeholder="Ex: Sachin"><br><br>     
+            <label for="LName">Last Name</label>
+            <input class="textbox" type="text" id="LName" placeholder="Ex: Tendulkar"><br><br>
+            <label for="Age">Age</label>
+            <input class="textbox" type="number" id="Age" required placeholder="Ex: 45"><br><br>
+            <label for="MobileNumber">Mobile Number</label>
+            <input class="textbox" type="number" id="MobileNumber" required placeholder="Ex: 9876543210"><br><br>
+            <label for="Aadhar">Aadhar Number</label>
+            <input class="textbox" type="number" id="Aadhar" required placeholder="Ex: 1234 4321 0000"><br><br>
+            <label for="DOB">Date Of Birth</label>
+             <input class="textbox" type="date" id="DOB" required><br><br>
+            <label for="Email">Email</label>     
+            <input class="textbox" type="email" id="Email" required placeholder="Ex: stevejobs@gamil.com"><br><br>
+            <label for="state">State</label>
+            <Select class="textbox">
+                <option value="Select">SELECT</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Andrapradesh">Andra Pradesh</option>
+                <option value="TamilNadu">Tamil Nadu</option>                
+            </Select><br><br>
+            <label for="createpassword">Create Password</label>
+            <input class="textbox" type="password" id="createpassword" required placeholder="Set strong password"><br><br>
+            <label for="confirmpassword">Confirm Password</label>
+            <input class="textbox" type="password" id="confirmpassword" required placeholder="Re Enter your Password"><br><br>
+            <label for="Gender">Gender</label>
+            <input class="textbox" type="radio" id="male" value="male" name="Gender">
+            <label for="male">MALE</label>
+            <input class="textbox" type="radio" id="female" value="female" name="Gender">
+            <label for="female">FEMALE</label><br><br>
+            <label for="physicalchallenged">Physical challenged</label>  
+            <input type="radio" id="yes" value="yes" name="physicalchallenged">
+            <label for="yes">YES</label>            
+            <input type="radio" id="no" value="no" name="physicalchallenged">          
+            <label for="no">NO</label>            <br><br>
+            <label for="AreaofInterest">Area of Interest</label>            
+            <input type="checkbox" id="playinggames" name="AreaofInterest" value="playinggames">
+            <label for="playinggames">Playing Games</label>
+            <input type="checkbox" id="Readingbooks" name="AreaofInterest" value="Readingbooks">
+            <label for="Readingbooks">Reading Books</label>
+            <input type="checkbox" id="others" name="AreaofInterest" value="other">
+            <label for="others">Others</label><br><br>
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Clear</button>
+        </form>
+    </body>
+</html>
