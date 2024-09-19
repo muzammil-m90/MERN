@@ -1,0 +1,39 @@
+ 
+            *{
+                background-color: lightpink;
+            }
+         
+            .ImgInfo{
+                height: 400px; 
+                width:100%;                
+            }
+
+            .cardInfo{                
+                width: 20%;
+                box-shadow: 0px 5px 8px 0px black;
+                padding: 5px;                
+            }
+
+            .cardInfo:hover{
+                box-shadow: 0px 10px 10px 0px brown;
+            }
+
+            .MovieInfo{
+                padding: 10px 10px;                
+                background-color: lightgray;
+            }
+
+            .flexView{
+                display: flex;  
+                justify-content: space-evenly;                                    
+            }
+
+            .backbutton{
+             background-color: lightpink;   
+             text-align: center;               
+            }
+
+            div a{
+                text-decoration: none;
+                color: black;
+            }

@@ -1,0 +1,128 @@
+
+            .pageTitle{
+                padding: 10px;
+                background-color: Red;
+                color: #f1f1f1;                  
+                font-size: 25px;
+                top:0%;
+                height: 50px;
+                width: 1500px;                
+                position: fixed;  
+                text-align: center;
+            }          
+
+            li a{
+                text-decoration: none;
+            }
+
+            ul{                               
+                background-color: yellow; 
+                padding: 5px;                                                 
+                list-style-type: none;
+                display: flex;
+                width: 50%;
+                justify-content: space-evenly;  
+                position: fixed;   
+                top: 7.89%;                     
+            }
+
+            ol{
+                background-color: gold; 
+                padding: 5px;
+                list-style-type: none;
+                color: rgb(139, 24, 240);
+                width: 50%;
+                display: flex;
+                justify-content: space-evenly;                
+                position: fixed;
+                margin-left: 50%;
+                top: 7.89%;
+            }
+
+            .flexParent{
+                display: flex;                      
+            }      
+                
+            ul li a:hover {
+                background-color: red;
+            }
+
+            ol li:hover{
+                background-color: mediumaquamarine;                                
+            }           
+            
+            .dropdown{
+                position: relative;
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding-top: 12px;
+                text-decoration: none;
+                display: block;                
+            }      
+            
+            .dropdown-content{
+                position: absolute;
+                background-color: aquamarine;
+                display: none;                                            
+            }            
+                
+            .dropdown:hover .dropdown-content{
+                display: block;    
+                min-width: 170px;                                                 
+            }          
+
+            .dropdown-content a:hover{
+                color: black;
+                background-color: skyblue;                         
+            }                                             
+
+            .dropdown-content .subMenu{
+                display: none;                
+                position: absolute;  
+                left:100%;                
+                background-color: orange;
+                width: 100px;                       
+            }         
+            
+            .dropdown-content:hover .subMenu{
+                display: block;                
+            }                           
+            
+            .divFlex{
+                display: flex; 
+                height: 800px;  
+                width: 100%;
+                background-color: bisque;    
+                justify-content: center;   
+                align-items: center;    
+                flex-wrap: wrap;                          
+            }
+
+            .imgSize{
+                height: 300px;
+                padding: 20px;
+                margin: 10px;
+                /* box-shadow: 1px 1px 1px 1px black; */
+            }
+
+            .imgSize:hover{
+                background-color: lightcyan;
+                box-shadow: 2px 8px 8px 0px grey;
+            }
+            
+
+            .card{
+                box-shadow: 0px 0px 0px 0px;
+            }
+
+            .NextInfo{
+                background-color: blueviolet;
+                text-align: center;                                         
+            }
+
+            .NextInfo a{
+                text-decoration: none;
+                color: white;
+            }
